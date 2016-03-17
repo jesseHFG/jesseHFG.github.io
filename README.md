@@ -44,3 +44,13 @@ Jekyll at the following locations.
 
 - <https://pages.github.com/>
 - <https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/>
+
+## Redirecting URL.
+
+After setting up the CNAME file at the top of the directory, you just need to
+set the www entry in the DNS Zone file to `username.github.io`.
+
+- https://help.github.com/articles/setting-up-a-www-subdomain/
+- https://help.github.com/articles/setting-up-your-pages-site-repository/
+- https://help.github.com/articles/about-supported-custom-domains/
+
