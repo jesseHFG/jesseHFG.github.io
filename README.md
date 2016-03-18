@@ -54,3 +54,8 @@ set the www entry in the DNS Zone file to `username.github.io`.
 - https://help.github.com/articles/setting-up-your-pages-site-repository/
 - https://help.github.com/articles/about-supported-custom-domains/
 
+Note: this requires changing the ANAME entry, which I think one may not want to
+do.  It is perhaps easier to just forward a subdomain with masking.  One can do
+that in the GoDaddy settings.  Simply point the subdomain to the GitHub Pages
+URL.
+
